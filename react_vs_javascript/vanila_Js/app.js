@@ -17,4 +17,20 @@ const showModalHandler = () => {
   modal.className = "modal";
 
   const modalText = document.createElement("p");
+  modalText.textContent = "Are you sure ?";
+
+  const modalCancelAction = document.createElement("button");
+  modalCancelAction.textContent = "cancel";
+  modalCancelAction.className = "btn btn--alt";
+  // adding event listener tothe cancel button
+  modalCancelAction.addEventListener("click", closeModalHandler);
+
+  const modalConfirmAction = document.createElement("button");
+  modalConfirmAction.textContent = "Confirm";
+  modalConfirmAction.className = "btn";
+  modalConfirmAction.addEventListener("click", closeModalHandler);
+
+  modal.append(modalText);
+  modal.append(modalCancelAction);
+  mod;
 };
