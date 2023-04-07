@@ -32,5 +32,21 @@ const showModalHandler = () => {
 
   modal.append(modalText);
   modal.append(modalCancelAction);
-  mod;
+  modal.append(modalConfirmAction);
+
+  document.body.append(modal);
+
+  backdrop = document.createElement("div");
+  backdrop.className = "backdrop";
+
+  backdrop.addEventListener("click", closeModalHandler);
+  document.body.append(backdrop);
+};
+
+const closeModalHandler = () => {
+  modal.remove();
+  modal = null;
+
+  backdrop.remove();
+  backdrop = null;
 };
