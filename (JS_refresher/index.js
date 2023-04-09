@@ -8,8 +8,9 @@ For the provided input [1, 2, 3] the transformToObjects() function should return
 
 function transformToObjects(numberArray) {
   // Todo: Add your logic
-  numberArray.map((elem) => {
+  const newArr = numberArray.map((elem) => {
     return { val: elem };
   });
   // should return an array of objects
+  return newArr;
 }
