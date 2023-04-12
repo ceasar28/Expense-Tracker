@@ -1,7 +1,11 @@
 function ExpenseItem() {
   return (
     <div>
-      <h1>first components</h1>
+      <div>Date</div>
+      <div>
+        <h2>Title</h2>
+        <div>Amount</div>
+      </div>
     </div>
   );
 }
