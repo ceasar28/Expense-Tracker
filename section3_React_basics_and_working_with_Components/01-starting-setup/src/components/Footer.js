@@ -1,9 +1,8 @@
-import { React } from "react";
-import styles from "./footer.css";
+import styles from "./footer.module.css";
 
 function Footer() {
   return (
-    <div className={styles.Footer}>
+    <div className={styles.footer}>
       <div className="comicZone">
         <div className="logo">{/* <img> </img> */}</div>
         <div>
