@@ -5,7 +5,7 @@ function Footer() {
     <div className={styles.footer}>
       <div className="comicZone">
         <div className="logo">
-          <p className="logoComic">
+          <p className={styles.logoComic}>
             COMIC<span className="logoZone">ZONE</span>
           </p>
         </div>
