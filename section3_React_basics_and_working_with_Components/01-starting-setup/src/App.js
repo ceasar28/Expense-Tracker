@@ -1,5 +1,6 @@
 import ExpenseItem from "./components/ExpenseItem";
 import Footer from "./components/Footer";
+import Bestselling from "./components/Beselling";
 function App() {
   return (
     <div>
