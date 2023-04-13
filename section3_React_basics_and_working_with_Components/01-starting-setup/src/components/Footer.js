@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <div>
+    <div className="Footer">
       <div className="comicZone">
         <div className="logo">{/* <img> </img> */}</div>
         <div>
