@@ -1,8 +1,8 @@
-import "./footer.css";
+import styles from "./footer.css";
 
 function Footer() {
   return (
-    <div className="Footer">
+    <div className={styles.Footer}>
       <div className="comicZone">
         <div className="logo">{/* <img> </img> */}</div>
         <div>
