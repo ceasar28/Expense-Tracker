@@ -10,10 +10,9 @@ html {
 
 body {
   margin: 0;
-  /* background-color: #3f3f3f; */
-  /* position: relative; */
-  /* width: 1440px;
-  height: 7429px; */
+  position: relative;
+  width: 1440px;
+  height: 2561px;
 
   background: #ffffff;
 }
