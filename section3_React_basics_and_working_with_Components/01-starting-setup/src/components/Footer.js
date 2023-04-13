@@ -1,8 +1,8 @@
-// import styles from "./footer.module.css";
+import styles from "./footer.module.css";
 
 function Footer() {
   return (
-    <div className="footer">
+    <div className={styles.footer}>
       <div className="comicZone">
         <div className="logo">
           <p className="logoComic">
