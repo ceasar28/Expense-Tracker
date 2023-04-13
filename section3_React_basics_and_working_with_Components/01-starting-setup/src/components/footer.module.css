@@ -6,3 +6,35 @@
   top: 4190px;
   background: #100202;
 }
+
+.logoComic {
+  position: absolute;
+  width: 150px;
+  height: 42px;
+  left: 104px;
+  top: 4295px;
+
+  font-family: "Comicy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42.8283px;
+  line-height: 42px;
+
+  color: #ffc700;
+}
+
+.logoZone {
+  position: absolute;
+  width: 172px;
+  height: 59px;
+  left: 254px;
+  top: 4278px;
+
+  font-family: "Comicy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 59.8189px;
+  line-height: 59px;
+
+  color: #fb1616;
+}

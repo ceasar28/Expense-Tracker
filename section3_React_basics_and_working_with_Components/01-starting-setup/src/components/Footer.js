@@ -4,7 +4,11 @@ function Footer() {
   return (
     <div className={styles.footer}>
       <div className="comicZone">
-        <div className="logo">{/* <img> </img> */}</div>
+        <div className="logo">
+          <p className="logo">
+            COMIC<span className="logoZone">ZONE</span>
+          </p>
+        </div>
         <div>
           <p>
             All of the content on comic zone is protected by copyright laws.
