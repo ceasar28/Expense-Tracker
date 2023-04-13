@@ -20,7 +20,10 @@ function Footer() {
       </div>
       <div className=" left">
         <p>Follow ComicZone</p>
+        <div className="icons"></div>
       </div>
     </div>
   );
 }
+
+export default Footer;
