@@ -9,6 +9,13 @@ function Bestselling() {
         <p>Reading List</p>
         <p>All comics</p>
         <button>seee more</button>
+        <div className="card"></div>
+        <div className="allUpdateIcon"></div>
+        <div>
+          <h4>Subscribe to our NewsLetter</h4>
+        </div>
+        <input type="email" />
+        <button>send</button>
       </div>
     </div>
   );
