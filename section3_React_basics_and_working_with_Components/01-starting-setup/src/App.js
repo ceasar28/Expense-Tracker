@@ -1,4 +1,4 @@
-import ExpenseItem from "./components/ExpenseItem";
+// import ExpenseItem from "./components/ExpenseItem";
 import Footer from "./components/Footer";
 import Bestselling from "./components/Bestselling";
 function App() {
