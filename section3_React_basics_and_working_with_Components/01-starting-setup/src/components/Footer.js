@@ -2,9 +2,7 @@ function Footer() {
   return (
     <div>
       <div className="comicZone">
-        <div className="logo">
-          <img> </img>
-        </div>
+        <div className="logo">{/* <img> </img> */}</div>
         <div>
           <p>
             All of the content on comic zone is protected by copyright laws.
