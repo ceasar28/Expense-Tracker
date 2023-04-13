@@ -2,11 +2,6 @@
 
 * {
   box-sizing: border-box;
-  position: relative;
-  width: 1440px;
-  height: 2561px;
-
-  background: #ffffff;
 }
 
 html {
@@ -15,6 +10,8 @@ html {
 
 body {
   margin: 0;
-
+  position: relative;
+  width: 1440px;
+  height: 2561px;
   background: #ffffff;
 }
