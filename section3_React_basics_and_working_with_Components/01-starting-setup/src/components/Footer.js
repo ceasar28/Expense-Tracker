@@ -5,6 +5,21 @@ function Footer() {
         <div className="logo">
           <img> </img>
         </div>
+        <div>
+          <p>
+            All of the content on comic zone is protected by copyright laws.
+            Copyright laws may make any unlawful use, sharing, or duplicating
+            illegal.
+          </p>
+        </div>
+      </div>
+      <div className="middle">
+        <p>Privacy</p>
+        <p>Terms of use</p>
+        <p>Help/FAQs</p>
+      </div>
+      <div className=" left">
+        <p>Follow ComicZone</p>
       </div>
     </div>
   );
