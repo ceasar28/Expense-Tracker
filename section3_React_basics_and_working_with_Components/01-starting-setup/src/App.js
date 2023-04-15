@@ -1,13 +1,10 @@
-// import ExpenseItem from "./components/ExpenseItem";
-import Footer from "./components/Footer";
-import Bestselling from "./components/Bestselling";
+import ExpenseItem from "./components/ExpenseItem";
+
 function App() {
   return (
     <div>
-      {/* <h2>Let's get started!</h2> */}
-      {/* <ExpenseItem /> */}
-      <Bestselling />
-      <Footer />
+      <h2>Let's get started!</h2>
+      <ExpenseItem />
     </div>
   );
 }
