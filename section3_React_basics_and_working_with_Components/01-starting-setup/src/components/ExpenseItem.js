@@ -1,7 +1,7 @@
 import "./ExpenseItem.css";
 function ExpenseItem() {
   return (
-    <div>
+    <div className="expense-item">
       <div>April 12th 2023</div>
       <div>
         <h2>Car Insurance</h2>
