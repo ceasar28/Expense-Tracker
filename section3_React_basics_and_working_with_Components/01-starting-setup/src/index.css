@@ -10,8 +10,5 @@ html {
 
 body {
   margin: 0;
-  position: relative;
-  width: 1440px;
-  height: 2561px;
-  background: #ffffff;
+  background-color: #3f3f3f;
 }
