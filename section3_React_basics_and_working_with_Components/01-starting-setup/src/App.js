@@ -22,8 +22,8 @@ function App() {
       date: new Date(2021, 5, 12),
     },
     {
-      id: "e",
-      title: "New Desk (Wooden)",
+      id: "e5",
+      title: "New Table (Plastic)",
       amount: 450,
       date: new Date(2021, 5, 12),
     },
