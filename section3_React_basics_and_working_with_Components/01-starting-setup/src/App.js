@@ -23,7 +23,7 @@ function App() {
     },
     {
       id: "e5",
-      title: "New Table (Plastic)",
+      title: "New CenterTable (Plastic)",
       amount: 450,
       date: new Date(2021, 5, 12),
     },
