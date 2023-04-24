@@ -2,7 +2,7 @@
 // import Card from "./components/Card";
 import React from "react";
 import Expenses from "./components/Expenses/Expenses";
-function App() {
+const App = () => {
   // return (
   //   <div>
   //     <h2>Let's get started!</h2>
@@ -15,6 +15,6 @@ function App() {
     React.createElement("h2", {}, "Lets get startes"),
     React.createElement(Expenses, {})
   );
-}
+};
 
 export default App;
