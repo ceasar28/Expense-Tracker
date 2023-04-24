@@ -1,7 +1,7 @@
 // import ExpenseItem from "./components/ExpenseItem";
 // import Card from "./components/Card";
 import React from "react";
-import Expenses from "./components/Expenses";
+import Expenses from "./components/Expenses/Expenses";
 function App() {
   // return (
   //   <div>
