@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import "./ExpenseForm.css";
 
-const ExpenseForm = () => {
+const ExpenseForm = (props) => {
   // creating a single state to manage all userinput
   //   const [userInput, setUserInput] = useState({
   //     enteredTitle: "",
@@ -36,12 +36,14 @@ const ExpenseForm = () => {
   const submitHandler = (event) => {
     event.preventDefault();
 
-    const expense = {
+    const expenseData = {
       title: enteredTitle,
       amount: enteredAmount,
       date: new Date(enteredDate),
     };
-    console.log(expense);
+    console.log(expenseData);
+    // accessing the props(onsave function declared in newexpense)
+    props.onSaveExpenseData(expenseData);
     // empty the input fields after submission
     setEnteredTitle("");
     setEnteredAmount("");
