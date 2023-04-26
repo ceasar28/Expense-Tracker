@@ -1,6 +1,6 @@
 // import ExpenseItem from "./components/ExpenseItem";
 // import Card from "./components/Card";
-import React,{useState} from "react";
+import React, { useState } from "react";
 import Expenses from "./components/Expenses/Expenses";
 import NewExpense from "./components/NewExpense/NewExpense";
 
@@ -26,10 +26,12 @@ const DummyExpenses = [
   },
 ];
 const App = () => {
-
-  const[expenses, setExpenses] = useState(DummyExpenses)
+  const [expenses, setExpenses] = useState(DummyExpenses);
 
   const dataHandler = (expensedata) => {
+    setExpenses((prevExpenses) => {
+      return [expensedata, ...prevExpenses];
+    });
     console.log("from App.js", expensedata);
   };
   return (
