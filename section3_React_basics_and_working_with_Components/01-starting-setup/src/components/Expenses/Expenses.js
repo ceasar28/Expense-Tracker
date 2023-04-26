@@ -21,6 +21,8 @@ const Expenses = (props) => {
         {props.items.map((expense) => {
           return (
             <ExpenseItem
+              // using the key concept to identify individal items uniquely
+              key={expense.id}
               title={expense.title}
               amount={expense.amount}
               date={expense.date}
