@@ -17,3 +17,5 @@ const Chart = (props) => {
     </div>
   );
 };
+
+export default Chart;
