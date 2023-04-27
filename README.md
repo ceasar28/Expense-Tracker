@@ -1,1 +1,2 @@
-# React_tutorial
+# Expense tracker
+built with react
