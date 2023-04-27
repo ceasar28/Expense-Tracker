@@ -1,2 +1,3 @@
 # Expense tracker
-built with react
+
+built with react.js
